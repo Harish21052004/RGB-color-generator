@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.jfif">
+</head>
+<body>
+    <h2 id="topic">RGB Color Generator</h2>    
+    <div class="container">
+        <div class="cover">
+            R<input type="range" min="0" max="255" value="0" id="red-color" oninput="change()">
+        </div>
+        <div class="cover">
+            G<input type="range" min="0" max="255" value="0" id="green-color" oninput="change()">
+        </div>
+        <div class="cover">
+            B<input type="range" min="0" max="255" value="0" id="blue-color" oninput="change()">
+        </div>
+        <div class="text">
+            <span id="text">rgb(0,0,0)</span>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
