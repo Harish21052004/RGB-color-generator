@@ -5,7 +5,7 @@ const  change = () =>{
     let text = document.getElementById("text");
     let topic = document.getElementById("topic")
 
-    text.innerHTML = "rgba("+red+" ,"+green+" ,"+blue+")"; 
-    document.body.style.background = "rgba("+red+","+green+","+blue+")";  
-    topic.style.color = "rgba("+red+","+green+","+blue+")";
+    text.innerHTML = "rgb("+red+" ,"+green+" ,"+blue+")"; 
+    document.body.style.background = "rgb("+red+","+green+","+blue+")";  
+    topic.style.color = "rgb("+red+","+green+","+blue+")";
 }
